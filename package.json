@@ -1,0 +1,53 @@
+{
+  "name": "react-inline-style",
+  
+  "version": "0.1.0",
+  
+  "author": {
+    "name" : "Philipp Adrian",
+    "email" : "philipp.adrian@dowjones.com",
+    "company" : "Dow Jones & Co."
+  },
+
+  "main" : "./react-inline-style.js",
+
+  "description": "Reusable and adaptable components without external css dependency.",
+
+  "keywords" : [
+    "react",
+    "mixin",
+    "style",
+    "inline",
+    "css"
+  ],
+ 
+  "repository": {
+    "type": "git",
+    "url": "https://github.dowjones.net/adrianp/react-inline-style"
+  },
+
+  "dependencies" : {
+    "objct" : "^2.0.3"
+  },
+
+  "devDependencies": {
+    "react" : "^0.13.3",
+
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-uglify" :"^1.2.0",
+    "gulp-rename" : "^1.2.2",
+    "gulp-replace" : "^0.5.3",
+
+    "browserify": "^10.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "reactify" : "^1.1.0"
+  },
+
+  "engines": {
+    "node": ">=0.10.x"
+  },
+
+  "private" : false
+}
