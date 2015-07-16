@@ -1,5 +1,6 @@
 # React Inline Style
 
+[![npm version](https://badge.fury.io/js/react-inline-style.svg)](http://badge.fury.io/js/react-inline-style)
 
 - [About](#about)
 - [Features](#features)
