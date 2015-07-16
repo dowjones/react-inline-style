@@ -90,7 +90,7 @@ var TextComponent = React.createClass({
 
 React.render(<TextComponent />, document.body);
 ```
-[Demo: jsFiddle](http://jsfiddle.net/48qmg8oj/3/)
+[Demo: jsFiddle](http://jsfiddle.net/09kc4xm8/)
 
 ## Style Definition
 
@@ -143,7 +143,7 @@ React.createClass({
   }
 });
 ```
-[Demo: jsFiddle](http://jsfiddle.net/L41ud0dk/1/)
+[Demo: jsFiddle](http://jsfiddle.net/uvep1v60/)
 
 ## Inheritance 
 
@@ -180,7 +180,7 @@ var RootComponent = React.createClass({
 
 React.render(<RootComponent />, document.body);
 ```
-[Demo: jsFiddle](http://jsfiddle.net/4r3m6v54/2/)
+[Demo: jsFiddle](http://jsfiddle.net/vwm3r8xd/)
 
 ## Namespaces / Nesting Styles
 
@@ -259,7 +259,7 @@ var RootComponent = React.createClass({
 
 React.render(<RootComponent />, document.body);
 ```
-[Demo: jsFiddle](http://jsfiddle.net/69ed9hnL/2/)
+[Demo: jsFiddle](http://jsfiddle.net/fk9o1wqr/)
 
 ## Global Styles
 
@@ -328,7 +328,7 @@ _React Inline Style_ makes this easier by reintroducing :pseudo classes. When ap
 
 Also the two most common :pseudo classes __:hover__ and __:pressed__ are already implemented for you. Just use them and all the required event handlers will be attached once their needed and removed when their not. (Still no solution for :focus though)
 
-[Demo: jsFiddle](http://jsfiddle.net/hf57dbk3/)
+[Demo: jsFiddle](http://jsfiddle.net/50fpvp6q/)
 
 ## Extend Style Classes
 

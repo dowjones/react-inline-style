@@ -23,7 +23,7 @@
  
   "repository": {
     "type": "git",
-    "url": "https://github.dowjones.net/adrianp/react-inline-style"
+    "url": "https://github.com/dowjones/react-inline-style"
   },
 
   "dependencies" : {
