@@ -49,5 +49,6 @@
     "node": ">=0.10.x"
   },
 
+  "license": "MIT",
   "private" : false
 }
