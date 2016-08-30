@@ -8802,7 +8802,7 @@ var ReactDOMIDOperations = {
     ) : invariant(!INVALID_PROPERTY_ERRORS.hasOwnProperty(name)));
 
     // If we're updating to null or undefined, we should remove the property
-    // from the DOM node instead of inadvertantly setting to a string. This
+    // from the DOM node instead of inadvertently setting to a string. This
     // brings us in line with the same behavior we have on initial render.
     if (value != null) {
       DOMPropertyOperations.setValueForProperty(node, name, value);
@@ -14750,7 +14750,7 @@ var EVENT_SUPPRESSION = {
 
   /**
    * @param {boolean} previouslyEnabled Enabled status of
-   *   `ReactBrowserEventEmitter` before the reconciliation occured. `close`
+   *   `ReactBrowserEventEmitter` before the reconciliation occurred. `close`
    *   restores the previous value.
    */
   close: function(previouslyEnabled) {
@@ -17575,7 +17575,7 @@ var Transaction = {
   Mixin: Mixin,
 
   /**
-   * Token to look for to determine if an error occured.
+   * Token to look for to determine if an error occurred.
    */
   OBSERVED_ERROR: {}
 
@@ -19539,7 +19539,7 @@ module.exports = keyMirror;
 
 /**
  * Allows extraction of a minified key. Let's the build system minify keys
- * without loosing the ability to dynamically use key strings as values
+ * without losing the ability to dynamically use key strings as values
  * themselves. Pass in an object with a single key/val pair and it will return
  * you the string key of that single record. Suppose you want to grab the
  * value for a key 'className' inside of an object. Key/val minification may
